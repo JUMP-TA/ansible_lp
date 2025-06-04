@@ -1,0 +1,3 @@
+# Global variables for all hosts
+aws_region: us-east-1
+app_env: production
