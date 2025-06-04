@@ -1,0 +1,3 @@
+---
+# tasks/main.yml for provision role
+# Placeholder: Add tasks to provision EC2, VPC, security groups, etc.
