@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  app:
+    image: your-app-image:latest
+    environment:
+      - APP_ENV={{ app_env }}
+      - SECRET_KEY={{ app_secret_key }}
+    ports:
+      - "80:80"
+# This file should be templated with Jinja2 in the app_deploy role
