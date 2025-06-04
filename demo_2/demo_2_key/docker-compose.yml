@@ -1,8 +1,0 @@
-version: "3"
-services:
-  web:
-    image: "nginx:latest"
-    ports:
-      - "8080:80"
-    environment:
-      SECRET_KEY: "CHANGEME"
