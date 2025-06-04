@@ -1,0 +1,8 @@
+version: "3"
+services:
+  web:
+    image: "{{ container_image }}"
+    ports:
+      - "{{ host_port }}:80"
+    environment:
+      SECRET_KEY: "{{ secret_key }}"

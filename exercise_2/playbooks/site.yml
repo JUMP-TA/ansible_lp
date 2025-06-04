@@ -1,0 +1,10 @@
+---
+- name: Deploy Web Server Role
+  hosts: web
+  become: yes
+
+  vars_files:
+    - ../vault/secrets.yml
+
+  roles:
+    - web

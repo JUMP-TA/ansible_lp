@@ -1,0 +1,10 @@
+- name: Copy docker-compose template
+  template:
+    src: docker-compose.yml.j2
+    dest: /Users/jamison.ducey/Desktop/learning_paths/Ansible/code/demo_2/docker-compose.yml
+
+- name: Start the application using docker-compose
+  command: docker-compose up -d
+  args:
+    chdir: /Users/jamison.ducey/Desktop/learning_paths/Ansible/code/demo_2
+  become: no

@@ -1,0 +1,10 @@
+---
+- name: Deploy Dockerized Web App Locally
+  hosts: localhost
+  become: yes
+  vars:
+    container_image: nginx:latest
+    host_port: 8080
+    secret_key: CHANGEME
+  roles:
+    - app_deploy
