@@ -1,0 +1,3 @@
+---
+# tasks/main.yml for app_deploy role
+# Placeholder: Add tasks to deploy the application using Docker Compose
