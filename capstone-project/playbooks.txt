@@ -1,11 +1,1 @@
----
-# Main playbook to deploy the CI/CD pipeline
-- name: Deploy CI/CD Pipeline
-  hosts: tag_capstone
-  become: true
-  vars_files:
-    - ../vault/secrets.yml
-  roles:
-    - provision
-    - docker_setup
-    - app_deploy
+
