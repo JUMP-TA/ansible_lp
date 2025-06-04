@@ -1,0 +1,2 @@
+# Placeholder for vault password
+# Store your Ansible Vault password here
